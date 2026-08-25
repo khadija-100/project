@@ -1,0 +1,382 @@
+body {
+    background-color: #0f0f12e5;
+    cursor: default;
+}
+
+/* ======================================= strat nav-home section ============================================== */
+
+.nav-home {
+    background: radial-gradient(#373438, #000000);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+.enjoy-nav {
+    color: #fcfcfc !important;
+    position: relative;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.enjoy-nav:hover,
+.enjoy-nav.active {
+    text-shadow: 0 0 10px #ff3333;
+    border-bottom: 1px solid #fff;
+
+}
+
+
+.nav-play:hover {
+
+    color: #ec8787b0 !important;
+
+}
+
+
+/* ============================================ end nav-home section ============================================ */
+
+/* =========================================== start header-home section ========================================= */
+
+
+
+.header-home img {
+    height: 940px;
+}
+
+.header-enjoy button {
+    width: 35px !important;
+    height: 8px !important;
+    border-radius: 20px !important;
+    margin-left: 20px !important;
+
+}
+
+.header-play button {
+    width: 50px !important;
+    height: 50px !important;
+    background: rgb(191, 57, 57);
+    border-radius: 50%;
+    top: 50% !important;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* ============================================== end header-home section ====================================== */
+
+/* ============================================== start main-home sectio =======================================  */
+
+.main-home {
+    height: 750px;
+}
+
+.main-play {
+    height: 340px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-play img {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    margin-left: 31px;
+}
+
+.img-left {
+    left: calc(50% - 245px);
+    transform: rotate(-10deg) scale(0.85);
+    z-index: 1;
+    filter: brightness(0.4);
+}
+
+.img-center {
+    left: calc(50% - 130px);
+    transform: rotate(0deg) scale(0.95);
+    z-index: 2;
+    filter: brightness(1);
+}
+
+.img-right {
+    left: calc(49%);
+    transform: rotate(10deg) scale(0.85);
+    z-index: 1;
+    filter: brightness(0.4);
+}
+
+.img-footer {
+    left: calc(50% - 87.5px);
+    transform: rotate(0deg) scale(0.5);
+    z-index: 0;
+}
+
+.main-enjoy button {
+    width: 50px !important;
+    height: 50px !important;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.main-enjoy button:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+/* =========================================== end main-home section= =====================================  */
+
+/* ========================================= start MovieDetail-home section =============================== */
+
+.MovieDetail-home {
+    height: 700px;
+}
+
+.MovieDetail-home img {
+    height: 450px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+    filter: brightness(0.7);
+    transition: transform 0.4s;
+
+}
+
+.MovieDetail-home img:hover {
+    transform: translateY(-12px);
+
+}
+
+/* ======================================== end MovieDetail-home section ===================================  */
+
+/* ======================================= start MovieCard-home section =====================================  */
+
+.MovieCard-enjoy {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8);
+    transition: transform 0.4s;
+
+}
+
+.MovieCard-enjoy:hover {
+    transform: translateY(-12px);
+
+}
+
+/* ======================================== end MovieCard-home section =====================================  */
+
+/* ======================================= start cinema-home section =======================================  */
+
+.cinema-home {
+    height: 900px;
+    margin-top: 95px;
+    margin-bottom: 200px;
+}
+
+.cinema-home img {
+    height: 450px;
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+    filter: brightness(0.7);
+    transition: transform 0.4s;
+
+}
+
+.cinema-home img:hover {
+    transform: translateY(-12px);
+
+}
+
+/* ====================================== end cinema-home section ===================================  */
+
+
+
+/* ==================================== start footer-home section ==================================== */
+
+.footer-home {
+    margin-top: 100px;
+    background-color: #221a1afb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.footer-play img {
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+    filter: brightness(0.7);
+    height: 400px;
+}
+
+
+
+
+/* ====================== end footer-home section ===============================  */
+
+
+/* ======================================== start otherHeader-home section ======================================= */
+
+.otherHeader-home {
+    background: linear-gradient(#0000008d), url(../img/cinema3.jpe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.otherHeader-home h2 {
+    padding-top: 260px;
+    text-shadow: 0 0 10px #ff0000;
+    font-size: 50px;
+
+}
+
+/*========================================== start otherHeader-home section ============================== */
+
+/*========================================== start otherFooter-home section ================================== */
+
+.otherFooter-home {
+    background-color: #221a1afb;
+    height: 140px;
+}
+
+
+/*========================================== end otherFooter-home section ================================== */
+
+
+/*===================== media min-width:992,max-width:1200px =================================== */
+
+@media(min-width:992px) and (max-width:1200px) {
+
+
+    .main-play img {
+        position: absolute;
+        width: 180px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+        margin-left: 42px;
+    }
+
+    .custom-nav-btn {
+        width: 20px !important;
+        height: 30px !important;
+
+    }
+
+    .main-enjoy button:nth-of-type(1) {
+        left: -50px !important;
+    }
+
+    .main-enjoy button:nth-of-type(2) {
+        right: -50px !important;
+    }
+
+}
+
+/*======================= media 992px ====================*/
+
+@media(max-width:992px) {
+
+    .MovieDetail-home img {
+        height: 320px;
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .footer-home {
+        height: 1000px;
+    }
+
+    .footer-play img {
+        height: 360px;
+        margin-top: 100px;
+    }
+
+    .search-movie {
+        width: 100% !important;
+    }
+}
+
+/* =================================== media 768px ========================================= */
+
+@media(max-width:768px) {
+
+    .nav-enjoy{
+            margin-right: 43px !important;
+    }
+
+    .header-home img {
+        height: 500px;
+
+    }
+
+    .header-home h5{
+        font-size: 19px !important;
+    }
+
+    .header-enjoy button {
+        width: 30px !important;
+        height: 6px !important;
+        border-radius: 19px !important;
+        margin-left: 18px !important;
+    }
+
+    .header-play button {
+        width: 25px !important;
+        height: 40px !important;
+        top: 55% !important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .MovieDetail-home {
+        margin-top: 110px !important;
+    }
+
+    .MovieDetail-home img {
+        height: 400px !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+
+    }
+
+    .cinema-book{
+        margin-top: 30px !important;
+    }
+
+    .MovieCard-home {
+        margin-top: 150px;
+    }
+
+    .footer-home {
+        margin-top: 400px;
+        height: 1090px;
+    }
+
+    .footer-play img {
+        height: 300px;
+        margin-top: 0px;
+
+    }
+
+    .movie-play button{
+        width: 150px !important;
+        margin: auto;
+        /* padding: 1px !important; */
+        /* margin: 100px !important; */
+    }
+
+
+
+}
